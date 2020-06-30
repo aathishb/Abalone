@@ -37,6 +37,7 @@ public:
     bool move(std::string loc, int, int, int);
     //returns true if move is valid, false otherwise
     std::vector<cell**> getRows() const;
+    //returns rows vector
 };
 
 #endif /* BOARD_H */
